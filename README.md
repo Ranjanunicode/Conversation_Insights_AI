@@ -26,3 +26,29 @@ git clone https://github.com/yourusername/call-analytics-service.git
 cd call-analytics-service
 cp .env.example .env
 # Add your GROQ_API_KEY to .env
+```
+
+---
+
+# 🔎 Example Usage
+
+## ✅ Get All Calls
+```bash
+curl http://localhost:8000/api/v1/calls
+```
+
+## ✅ Get One Call
+```bash
+curl http://localhost:8000/api/v1/calls/<call_id>
+```
+
+## ✅ Get Recommendations for a Call
+```bash
+curl http://localhost:8000/api/v1/calls/<call_id>/recommendations
+```
+
+## ✅ Get Agent Leaderboard
+```bash
+curl http://localhost:8000/api/v1/analytics/agents
+```
+
