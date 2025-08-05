@@ -1,0 +1,9 @@
+{
+  "call_id": "5c9d359d-5245-4fe4-986f-758db79ca350",
+  "agent_id": "e4968fe2-c132-4aab-9096-dd1447c7dc31",
+  "customer_id": "b3862478-beef-40a7-b166-49b156c88805",
+  "language": "en",
+  "start_time": "2025-01-01 10:54:45",
+  "duration_seconds": 148,
+  "transcript": "Agent: Hi, my name is John and I'm calling from XYZ Corporation. How are you today?\nCustomer: I'm doing well, thanks. Who is this and what's this about?\nAgent: We specialize in energy-efficient solutions for homes and businesses. I'm calling to introduce our new smart thermostat system.\nCustomer: Oh, I've been looking into those. What makes yours different?\nAgent: Our system learns your schedule and preferences to optimize heating and cooling, saving you up to 30% on your energy bills.\nCustomer: That sounds great. How much does it cost?\nAgent: The system itself is $299, and installation is $150. We also offer a financing option for $20 a month.\nCustomer: That's a bit more than I was hoping to spend. Do you have any promotions or discounts?\nAgent: Actually, we're running a promotion right now where you can get 10% off the system and free installation.\nCustomer: That sounds better. How long does the installation process take?\nAgent: Typically, it takes about an hour to an hour and a half, depending on the complexity of the job.\nCustomer: Okay, I think I'm interested. Can you come out tomorrow or the next day?\nAgent: Let me check the schedule. (pause) Yes, we have an opening tomorrow afternoon. Would that work for you?\nCustomer: Yes, that's perfect. What time were you thinking?\nAgent: How about 2 PM?\nCustomer: That sounds good. I'll see you then.\nAgent: Great, we'll send you a confirmation email with all the details. Thank you for choosing XYZ Corporation!\nCustomer: Thank you, I'm looking forward to it."
+}

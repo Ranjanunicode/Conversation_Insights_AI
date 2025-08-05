@@ -1,0 +1,9 @@
+{
+  "call_id": "9e36c07b-57e2-4445-af58-c24d57396480",
+  "agent_id": "08347085-531a-48e3-a318-6569bacc269d",
+  "customer_id": "38e4646f-7cdc-4875-b4b5-706403bbf98f",
+  "language": "en",
+  "start_time": "2025-05-15 22:30:13",
+  "duration_seconds": 209,
+  "transcript": "Agent: Hello, is this Mr. Johnson?\nCustomer: Yes, it is. Who's calling?\nAgent: My name is Emily, and I'm calling from GreenTech Solutions. We specialize in energy-efficient appliances.\nCustomer: Okay, what can I do for you?\nAgent: We've recently launched a new line of smart thermostats that can help you save up to 30% on your energy bills.\nCustomer: That sounds interesting. I've been looking to upgrade my old thermostat.\nAgent: Great! Our product is Wi-Fi enabled, allowing you to control the temperature remotely through your smartphone.\nCustomer: That's convenient. How much does it cost?\nAgent: The price starts at $249, but we're currently offering a promotion with a $50 discount.\nCustomer: Okay, that's not bad. What kind of warranty do you offer?\nAgent: We provide a 5-year warranty and dedicated customer support.\nCustomer: Alright, I'm interested. Can you install it for me?\nAgent: Yes, we offer installation services starting at $100.\nCustomer: Okay, that sounds good. Can you give me a total price?\nAgent: The total would be $299, including installation.\nCustomer: Okay, I'll take it. When can you install it?\nAgent: How about next Wednesday?\nCustomer: That works for me. Thank you, Emily.\nAgent: You're welcome, Mr. Johnson. We'll send you a confirmation email with the details."
+}

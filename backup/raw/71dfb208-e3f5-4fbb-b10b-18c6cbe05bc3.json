@@ -1,0 +1,9 @@
+{
+  "call_id": "71dfb208-e3f5-4fbb-b10b-18c6cbe05bc3",
+  "agent_id": "b3ac539a-bbd7-4fff-8cb6-fbaff3c6845e",
+  "customer_id": "60ed2e2d-a3ef-4cf2-9ded-27a4b7a5c5e1",
+  "language": "en",
+  "start_time": "2025-02-14 18:20:34",
+  "duration_seconds": 87,
+  "transcript": "Agent: Hello, my name is John and I'm calling from XYZ Corporation. How are you today?\nCustomer: I'm doing well, thank you. Who is this and what's this about?\nAgent: We're a leading provider of energy-efficient solutions, and I'm calling to discuss our new smart thermostat product.\nCustomer: Oh, I've heard of those. What makes yours so special?\nAgent: Our product learns your schedule and preferences to optimize your heating and cooling usage, saving you up to 30% on your energy bills.\nCustomer: That sounds interesting. How much does it cost?\nAgent: The unit itself is $250, and we're currently offering a promotion with free installation.\nCustomer: That's a bit pricey for me. Do you have any financing options?\nAgent: Yes, we offer a 0% interest financing plan for 12 months. Would you like me to explain the details?\nCustomer: Yes, please.\nAgent: With our financing plan, you can pay as little as $21 per month for 12 months.\nCustomer: That's more manageable. What kind of support do you offer if something goes wrong?\nAgent: We have a dedicated customer support team available 24/7, and our product comes with a 5-year warranty.\nCustomer: Okay, I think I'm interested. Can you send me some more information?\nAgent: Absolutely, I can email you a brochure and a quote right away.\nCustomer: Great, thank you. I look forward to reviewing it.\nAgent: You're welcome. Is there a good email address I can reach you at?\nCustomer: Yes, it's johnsmith@email.com.\nAgent: Perfect, I'll send it over to you now. Thank you for your time today!\nCustomer: Thank you, bye.\nAgent: You're welcome, bye."
+}

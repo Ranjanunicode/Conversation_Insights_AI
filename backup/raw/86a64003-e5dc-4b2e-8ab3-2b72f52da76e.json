@@ -1,0 +1,9 @@
+{
+  "call_id": "86a64003-e5dc-4b2e-8ab3-2b72f52da76e",
+  "agent_id": "a3849a92-23c0-4aa9-bd8c-e3503666d617",
+  "customer_id": "b14af2b3-5217-4915-887b-0d5718d33617",
+  "language": "en",
+  "start_time": "2025-01-01 14:02:34",
+  "duration_seconds": 556,
+  "transcript": "Agent: Hello, is this Mr. Johnson?\nCustomer: Yes, it is. Who's calling?\nAgent: My name is Emily, and I'm calling from GreenTech Solutions. We specialize in energy-efficient products for homes and businesses.\nCustomer: Okay, what can you do for me?\nAgent: We've recently launched a new line of smart thermostats that can help you save up to 30% on your energy bills.\nCustomer: That sounds interesting. I've been looking to reduce my energy consumption.\nAgent: Great! Our smart thermostats learn your schedule and preferences to optimize your heating and cooling system.\nCustomer: How does it work with my existing system?\nAgent: It's compatible with most HVAC systems, and our team can install it for you.\nCustomer: What's the cost of the thermostat and installation?\nAgent: The thermostat itself is $250, and installation starts at $100.\nCustomer: That seems reasonable. Do you offer any discounts or promotions?\nAgent: Yes, we're currently running a promotion \u2013 buy one thermostat, get a second one 20% off.\nCustomer: That's a good deal. Can you send me more information about the product and the promotion?\nAgent: Absolutely, I'll send you an email with all the details. Would you like to schedule an installation appointment?\nCustomer: Yes, please. How soon can you install it?\nAgent: We can install it as early as next week. I'll send you a follow-up email to confirm the appointment.\nCustomer: Sounds good. Thank you, Emily.\nAgent: You're welcome, Mr. Johnson. We look forward to helping you save energy and money."
+}

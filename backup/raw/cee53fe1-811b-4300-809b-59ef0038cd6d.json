@@ -1,0 +1,9 @@
+{
+  "call_id": "cee53fe1-811b-4300-809b-59ef0038cd6d",
+  "agent_id": "b37705d3-5a16-44fc-a142-8d12511efd2f",
+  "customer_id": "dadd5a1c-89cf-47be-8821-5ae9a5380dcd",
+  "language": "en",
+  "start_time": "2025-01-11 09:22:05",
+  "duration_seconds": 481,
+  "transcript": "Agent: Hello, my name is John and I'm calling from XYZ Corporation. How are you today?\nCustomer: I'm doing well, thanks. Who is this?\nAgent: As I mentioned, I'm John from XYZ Corporation. We specialize in providing innovative software solutions for businesses.\nCustomer: Okay, what can you do for me?\nAgent: We've recently launched a new product that helps streamline workflow and increase productivity. It's called \"EASE\".\nCustomer: That sounds interesting. What makes it so special?\nAgent: EASE is an all-in-one platform that automates tasks, manages projects, and provides real-time analytics.\nCustomer: I see. How much does it cost?\nAgent: Our pricing plans start at $50 per user per month, with discounts available for bulk purchases.\nCustomer: That's a bit steeper than I expected. Do you have any demos or trials available?\nAgent: Yes, we offer a 30-day free trial. Would you like me to send you a link to get started?\nCustomer: Sure, that would be great.\nAgent: I'll send it over to you right away. In the meantime, can you tell me a bit about your business and what you're looking for in a workflow solution?\nCustomer: We're a small marketing firm with about 10 employees. We're looking for something to help us stay organized and on track.\nAgent: I think EASE could be a great fit for you. I'll follow up with you in a few days to see how the trial is going and answer any questions you may have.\nCustomer: Sounds good, thanks.\nAgent: You're welcome. I'll send over that trial link and we can go from there.\nCustomer: Great, thanks again.\nAgent: Have a great day!"
+}

@@ -1,0 +1,9 @@
+{
+  "call_id": "d6ec25d0-f9a5-4b9b-bce3-9312b31d4f88",
+  "agent_id": "c4525b35-4636-42a0-8836-88322874ac92",
+  "customer_id": "badeda21-34f6-48af-bb8e-4cdf3fbc9051",
+  "language": "en",
+  "start_time": "2025-04-09 23:21:18",
+  "duration_seconds": 396,
+  "transcript": "Agent: Hello, my name is John and I'm calling from XYZ Corporation. How are you today?\nCustomer: I'm doing well, thank you. Who is this again?\nAgent: My name is John, and I'm calling about our new smart home security system.\nCustomer: Oh, okay. I've been looking into those. What makes yours different?\nAgent: Our system offers advanced features like motion detection and real-time alerts.\nCustomer: That sounds interesting. How much does it cost?\nAgent: Our basic package starts at $99.99, and our premium package is $199.99.\nCustomer: What's the difference between the two packages?\nAgent: The premium package includes additional cameras and a longer warranty.\nCustomer: I see. Do you offer any discounts for first-time customers?\nAgent: Yes, we're currently offering a 10% discount for new customers.\nCustomer: That sounds good. How long does installation take?\nAgent: Installation typically takes about 2-3 hours, depending on the size of your home.\nCustomer: Okay, that's reasonable. Can I schedule an installation for next week?\nAgent: Let me check our schedule. (pause) Yes, we have an opening on Wednesday.\nCustomer: That works for me. What's the next step?\nAgent: I'll send you a confirmation email with all the details. We'll also call you the day before to confirm.\nCustomer: Sounds good. Thank you for your help, John.\nAgent: You're welcome. We'll get you set up with your new security system soon.\nCustomer: Great, I'm looking forward to it.\nAgent: Excellent. Have a great day!\nCustomer: You too, bye.\nAgent: Bye."
+}

@@ -1,0 +1,9 @@
+{
+  "call_id": "be61c1a4-f2e3-4e5a-ae02-9479717d6148",
+  "agent_id": "73d6cd82-6ce8-4eb3-b955-92b46558db59",
+  "customer_id": "1d3e5149-98d5-481b-9a8e-96e7ef63ab60",
+  "language": "en",
+  "start_time": "2025-04-20 11:04:02",
+  "duration_seconds": 423,
+  "transcript": "Agent: Hello, is this Mr. Johnson?\nCustomer: Yes, it is. Who's calling?\nAgent: My name is Emily, and I'm calling from GreenTech Solutions. We specialize in energy-efficient products.\nCustomer: Okay, what can you do for me?\nAgent: We've recently launched a new smart thermostat that can help you save up to 30% on your energy bills.\nCustomer: That sounds interesting. I've been looking to reduce my bills. How does it work?\nAgent: It uses AI to learn your schedule and preferences, adjusting the temperature accordingly.\nCustomer: That's cool. Is it easy to install?\nAgent: Yes, it's a simple DIY process, and we also offer professional installation services if needed.\nCustomer: Okay, what's the price point?\nAgent: The thermostat itself is $249, and installation starts at $100.\nCustomer: That's a bit steeper than I expected. Do you have any promotions?\nAgent: Actually, we're running a limited-time offer \u2013 10% off the thermostat and free installation.\nCustomer: That sounds better. Can you email me the details?\nAgent: Absolutely, I'll send you a follow-up email with all the information.\nCustomer: Great, thanks. I'll take a look and get back to you.\nAgent: Sounds good, Mr. Johnson. Look forward to hearing from you soon.\nCustomer: You too, thanks.\nAgent: Have a great day!\nCustomer: You too, bye."
+}

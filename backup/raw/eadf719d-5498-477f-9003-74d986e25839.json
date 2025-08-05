@@ -1,0 +1,9 @@
+{
+  "call_id": "eadf719d-5498-477f-9003-74d986e25839",
+  "agent_id": "d868adb1-9dbe-47ed-9016-75041bf5a03b",
+  "customer_id": "b5f0cddf-32d3-4179-8065-c026dcda945f",
+  "language": "en",
+  "start_time": "2025-07-02 17:23:27",
+  "duration_seconds": 331,
+  "transcript": "Agent: Hello, my name is John and I'm calling from XYZ Corporation. How are you today?\nCustomer: I'm doing well, thank you. Who is this?\nAgent: As I mentioned, my name is John and I'm calling about our new product, the SmartHome Security System.\nCustomer: Oh, I've heard of it. What can you tell me about it?\nAgent: It's a state-of-the-art system that allows you to monitor and control your home's security from your smartphone.\nCustomer: That sounds interesting. How much does it cost?\nAgent: The system starts at $99.99, and we have various packages to fit your needs.\nCustomer: Okay, I see. What kind of features does it have?\nAgent: It includes motion detection, video recording, and alerts sent directly to your phone.\nCustomer: That sounds great. Do you have any promotions going on?\nAgent: Yes, we're currently offering a 10% discount for first-time customers.\nCustomer: Okay, that's a good deal. How long does installation take?\nAgent: Installation typically takes about 2 hours, and our technicians will schedule a time that works for you.\nCustomer: Alright, I think I'm interested. Can you email me more information?\nAgent: Absolutely, I'll send you an email with all the details. Would you like to schedule an installation?\nCustomer: Yes, please. Can you schedule it for next Wednesday?\nAgent: Let me check the schedule. (pause) Yes, that works. We'll send someone over next Wednesday at 10 am.\nCustomer: Great, thank you.\nAgent: You're welcome. We'll see you next Wednesday. Is there anything else I can help you with?\nCustomer: No, that's all. Thank you again.\nAgent: You're welcome. Have a great day!"
+}

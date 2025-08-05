@@ -1,0 +1,9 @@
+{
+  "call_id": "9f971dee-e7f2-4006-b4e4-5654463762d7",
+  "agent_id": "00e0aa9e-fac4-434f-a355-fd83c934875f",
+  "customer_id": "2c4901bf-f83e-4e91-be4c-4454efd11a9e",
+  "language": "en",
+  "start_time": "2025-06-23 13:06:44",
+  "duration_seconds": 172,
+  "transcript": "Agent: Hello, thank you for answering. My name is John and I'm calling from XYZ Corporation. How are you today?\nCustomer: I'm doing well, thanks. What's this about?\nAgent: We're a leading provider of home security systems, and I'm calling to introduce you to our latest product, the SmartGuard.\nCustomer: Oh, I've heard of it. What makes it so special?\nAgent: The SmartGuard is a state-of-the-art system that includes motion detectors, video cameras, and a 24/7 monitoring service.\nCustomer: That sounds impressive. How much does it cost?\nAgent: The system itself starts at $999, and the monthly monitoring fee is $49.99.\nCustomer: That's a bit pricey for me. Do you have any promotions or discounts available?\nAgent: Actually, we're running a special promotion right now. If you sign up within the next 48 hours, we'll give you a $200 discount on the system.\nCustomer: That sounds like a good deal. What kind of support do you offer?\nAgent: We have a dedicated customer support team available 24/7 to assist with any questions or issues you may have.\nCustomer: Okay, I'm interested. What's the next step?\nAgent: I can send you a contract via email, and you can review it at your convenience. If you have any questions, just give me a call.\nCustomer: Sounds good. What's your email address?\nAgent: It's john.smith@xyzcorp.com. I'll send the contract over right away.\nCustomer: Great, thank you. I look forward to reviewing it.\nAgent: You're welcome. Thank you for considering the SmartGuard, and I look forward to hearing back from you soon.\nCustomer: You're welcome. Bye.\nAgent: Bye."
+}

@@ -1,0 +1,9 @@
+{
+  "call_id": "7486e667-29fe-47c0-88f5-8f553ab68206",
+  "agent_id": "88273e3c-07f0-4997-b705-83f48a49baed",
+  "customer_id": "b9075578-112e-461b-8deb-b73a9f7263a5",
+  "language": "en",
+  "start_time": "2025-06-30 12:47:58",
+  "duration_seconds": 402,
+  "transcript": "Agent: Hi, my name is John and I'm calling from XYZ Corporation. How are you today?\nCustomer: I'm doing well, thanks. Who is this and what's this about?\nAgent: We're a leading provider of cybersecurity solutions, and I'm calling to introduce our newest product, SafeGuard.\nCustomer: Oh, cybersecurity. We've been looking into that. What makes SafeGuard different?\nAgent: SafeGuard uses AI-powered threat detection to protect your network from even the most sophisticated attacks.\nCustomer: That sounds interesting. What kind of support does it come with?\nAgent: We offer 24/7 technical support, as well as regular software updates to ensure you're always protected.\nCustomer: Okay, that's good to know. What's the cost?\nAgent: Our pricing starts at $500 per month for small businesses, but we can customize a plan to fit your specific needs.\nCustomer: That's a bit higher than we were expecting. Do you have any discounts available?\nAgent: Yes, we're currently offering a 10% discount for new customers. Would you like me to send over a custom quote?\nCustomer: Yes, please. And can you also send some case studies or testimonials from existing customers?\nAgent: Absolutely. I'll send those over right away. Is there a specific timeline for implementing a cybersecurity solution?\nCustomer: We're looking to make a decision within the next few weeks.\nAgent: Great. I'll make sure to follow up with you soon to answer any further questions you may have.\nCustomer: Sounds good. Thanks for the information, John.\nAgent: You're welcome. I look forward to speaking with you again soon.\nCustomer: You too. Bye.\nAgent: Bye."
+}

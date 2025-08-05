@@ -1,0 +1,9 @@
+{
+  "call_id": "08a24d94-e07b-4eca-b93d-65f0ee0e8fc9",
+  "agent_id": "8992d861-b3cf-4beb-8b93-1838224e7fe0",
+  "customer_id": "5db07f9c-93da-4e4e-b919-8f653e979ab9",
+  "language": "en",
+  "start_time": "2025-01-09 06:10:29",
+  "duration_seconds": 118,
+  "transcript": "Agent: Hello, my name is John and I'm calling from XYZ Corporation. How are you today?\nCustomer: I'm doing well, thanks. Who is this and what's this about?\nAgent: We specialize in energy-efficient solutions for homes and businesses. I'm calling to introduce our new smart thermostat.\nCustomer: Oh, I've been looking into those. What makes yours different?\nAgent: Our thermostat learns your schedule and preferences to optimize your heating and cooling usage, saving you up to 30% on your energy bills.\nCustomer: That sounds impressive. How much does it cost?\nAgent: The thermostat itself is $249, and we're currently offering a promotion with free installation, valued at $100.\nCustomer: That's a good price. Is it compatible with my existing HVAC system?\nAgent: Yes, our thermostat is compatible with most systems on the market. I can also check your specific model if you'd like.\nCustomer: Okay, it's a Trane system. Will it work with that?\nAgent: Yes, it's fully compatible. We've had great success with Trane systems in the past.\nCustomer: Alright, I'm interested. What's the next step?\nAgent: I can schedule an installation at your convenience. Would you like me to send someone over this week or next?\nCustomer: How about Wednesday of this week?\nAgent: Wednesday works perfectly. I'll go ahead and schedule the installation for Wednesday.\nCustomer: Great, thank you. I'm looking forward to it.\nAgent: You're welcome. We'll see you Wednesday."
+}

@@ -1,0 +1,9 @@
+{
+  "call_id": "ecf218e7-640b-4906-b6b3-fb698beb6f1e",
+  "agent_id": "ded19a4c-2a03-4cd7-babf-a2eb05b70a64",
+  "customer_id": "5acad6ac-ea6c-4ad5-aa9d-858e8da0c04e",
+  "language": "en",
+  "start_time": "2025-07-04 15:31:33",
+  "duration_seconds": 98,
+  "transcript": "Agent: Good morning, my name is John and I'm calling from XYZ Corporation. How are you today?\nCustomer: I'm doing well, thanks. Who is this and what's this about?\nAgent: We specialize in providing innovative software solutions for businesses. I came across your company and thought our product could be a great fit.\nCustomer: What kind of software are you talking about?\nAgent: Our product is a project management tool that helps teams collaborate and increase productivity.\nCustomer: We're currently using a different tool, but we're not entirely satisfied with it. What makes yours better?\nAgent: Our tool offers real-time tracking, automated reporting, and seamless integration with other apps.\nCustomer: That sounds interesting. How much does it cost?\nAgent: Our pricing starts at $20 per user per month, with discounts available for larger teams.\nCustomer: Okay, that's within our budget. Can you tell me more about the implementation process?\nAgent: Absolutely. We offer a free trial, and our support team will assist you with onboarding and training.\nCustomer: Great. I'd like to learn more. Can you send me some information and a demo link?\nAgent: I'd be happy to. I'll send you an email with all the details. Would you like to schedule a follow-up call for next week?\nCustomer: Yes, that sounds good. Thanks for reaching out, John.\nAgent: You're welcome. I look forward to speaking with you again soon.\nCustomer: Me too. Have a great day.\nAgent: You too. Bye."
+}

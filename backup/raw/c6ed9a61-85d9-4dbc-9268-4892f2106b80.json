@@ -1,0 +1,9 @@
+{
+  "call_id": "c6ed9a61-85d9-4dbc-9268-4892f2106b80",
+  "agent_id": "9a7594cb-9405-44ce-950a-256cb6ed20b5",
+  "customer_id": "65efae40-3322-4ecf-ad4c-53e54851adc3",
+  "language": "en",
+  "start_time": "2025-07-08 00:50:03",
+  "duration_seconds": 165,
+  "transcript": "Agent: Hello, thank you for considering our company. My name is John, and I'm calling about our new smart home security system.\nCustomer: Hi John, I've been looking into security systems. What makes yours stand out?\nAgent: Our system offers real-time monitoring, motion detection, and alerts sent directly to your phone.\nCustomer: That sounds great. I've had some issues with break-ins in my neighborhood.\nAgent: I understand your concern. Our system has a 99% success rate in preventing break-ins.\nCustomer: Wow, that's impressive. How much does it cost?\nAgent: The initial setup is $1,000, and the monthly subscription is $50.\nCustomer: That's a bit steep for me. Do you have any discounts or promotions?\nAgent: We're currently offering a 10% discount for first-time customers.\nCustomer: Okay, that helps. What kind of support do you offer?\nAgent: We have 24/7 customer support and a dedicated team for any technical issues.\nCustomer: Alright, I'm interested. Can you come out to install it next week?\nAgent: Let me check our schedule. (pause) Yes, we have an opening on Wednesday.\nCustomer: That works for me. What's the next step?\nAgent: I'll send over a contract and payment information. We'll take care of the rest.\nCustomer: Sounds good. Thank you, John.\nAgent: You're welcome. We'll get your home secure in no time."
+}

@@ -1,0 +1,9 @@
+{
+  "call_id": "e51eb97a-d1e1-4fdf-b646-7a2cd85ba147",
+  "agent_id": "c09f15d8-a31d-4f08-a196-52aadf527781",
+  "customer_id": "667e10b1-9537-4f3e-8760-f14d32572956",
+  "language": "en",
+  "start_time": "2025-01-10 13:32:42",
+  "duration_seconds": 174,
+  "transcript": "Agent: Hi, is this Mr. Johnson?\nCustomer: Yes, it is. Who's calling?\nAgent: My name is Emily, and I'm calling from GreenTech Solutions. We specialize in energy-efficient appliances.\nCustomer: Okay, what can I do for you?\nAgent: We've recently launched a new line of smart thermostats that can help reduce your energy bills by up to 30%.\nCustomer: That sounds interesting. I've been looking to upgrade my old thermostat.\nAgent: Great! Our thermostats are not only energy-efficient but also Wi-Fi enabled, allowing you to control the temperature remotely.\nCustomer: That's a nice feature. How much do they cost?\nAgent: We have different models, but our most popular one starts at $249.\nCustomer: That's a bit more than I was expecting. What kind of warranty do you offer?\nAgent: We offer a 5-year warranty on all our products, and we also provide free installation.\nCustomer: Okay, that sounds good. Can you tell me more about the installation process?\nAgent: Absolutely. Our technicians will come to your house, remove the old thermostat, and install the new one. It usually takes about an hour.\nCustomer: Alright, I think I'm interested. Can you give me a call back tomorrow to finalize the details?\nAgent: Of course, Mr. Johnson. I'll make sure to call you back tomorrow morning.\nCustomer: Great, thank you.\nAgent: You're welcome. Have a great day, and I look forward to speaking with you tomorrow.\nCustomer: You too, thanks.\nAgent: Bye for now.\nCustomer: Bye."
+}
