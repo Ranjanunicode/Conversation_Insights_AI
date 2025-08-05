@@ -18,3 +18,6 @@ pytest-cov
 black
 mypy
 isort
+nest_asyncio
+python-jose
+passlib[bcrypt]

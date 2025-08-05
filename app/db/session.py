@@ -1,15 +1,25 @@
-from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
+# app/db/session.py
+from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from app.core.config import DATABASE_URL
 
-engine = create_async_engine(DATABASE_URL, echo=True)
+DATABASE_URL = "sqlite:///./calls.db"
 
-AsyncSessionLocal = sessionmaker(
-    bind=engine,
-    class_=AsyncSession,
-    expire_on_commit=False
-)
+engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
+SessionLocal = sessionmaker(bind=engine)
 
-async def get_db():
-    async with AsyncSessionLocal() as session:
-        yield session
+
+# from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
+# from sqlalchemy.orm import sessionmaker
+# from app.core.config import DATABASE_URL
+
+# engine = create_async_engine(DATABASE_URL, echo=True)
+
+# AsyncSessionLocal = sessionmaker(
+#     bind=engine,
+#     class_=AsyncSession,
+#     expire_on_commit=False
+# )
+
+# async def get_db():
+#     async with AsyncSessionLocal() as session:
+#         yield session
