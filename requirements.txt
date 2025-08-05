@@ -21,3 +21,4 @@ isort
 nest_asyncio
 python-jose
 passlib[bcrypt]
+pydantic-settings

@@ -22,9 +22,10 @@ This is a production-ready Python microservice that ingests synthetic sales call
 
 ### 🔐 1. Clone and Configure
 ```bash
-git clone https://github.com/yourusername/call-analytics-service.git
-cd call-analytics-service
-cp .env.example .env
+git clone https://github.com/Ranjanunicode/Conversation_Insights_AI.git
+cd Conversation_Insights_AI
+touch .env
+nano .env
 # Add your GROQ_API_KEY to .env
 ```
 
