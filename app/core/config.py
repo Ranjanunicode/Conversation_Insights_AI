@@ -1,4 +1,10 @@
 # app/core/config.py
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):

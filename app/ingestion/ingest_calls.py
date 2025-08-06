@@ -27,38 +27,3 @@ async def ingest_calls(n=200):
 
 if __name__ == "__main__":
     asyncio.run(ingest_calls(200))
-
-
-# import asyncio
-# import aiohttp
-# import uuid
-# import random
-# import datetime
-# from faker import Faker
-# from app.db.session import AsyncSessionLocal
-# from app.models.call import Call
-
-# fake = Faker()
-
-# async def generate_fake_transcript():
-#     return " ".join(fake.sentences(nb=random.randint(10, 50)))
-
-# async def create_fake_call():
-#     return Call(
-#         call_id=uuid.uuid4(),
-#         agent_id=uuid.uuid4(),
-#         customer_id=uuid.uuid4(),
-#         language="en",
-#         start_time=fake.date_time_this_year(),
-#         duration_seconds=random.randint(60, 1200),
-#         transcript=await generate_fake_transcript()
-#     )
-
-# async def ingest_calls(n=200):
-#     async with AsyncSessionLocal() as session:
-#         calls = [await create_fake_call() for _ in range(n)]
-#         session.add_all(calls)
-#         await session.commit()
-
-# if __name__ == "__main__":
-#     asyncio.run(ingest_calls())

@@ -6,20 +6,3 @@ DATABASE_URL = "sqlite:///./calls.db"
 
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 SessionLocal = sessionmaker(bind=engine)
-
-
-# from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
-# from sqlalchemy.orm import sessionmaker
-# from app.core.config import DATABASE_URL
-
-# engine = create_async_engine(DATABASE_URL, echo=True)
-
-# AsyncSessionLocal = sessionmaker(
-#     bind=engine,
-#     class_=AsyncSession,
-#     expire_on_commit=False
-# )
-
-# async def get_db():
-#     async with AsyncSessionLocal() as session:
-#         yield session
