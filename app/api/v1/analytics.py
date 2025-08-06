@@ -1,13 +1,14 @@
 # app/api/analytics.py
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from app.db.session import SessionLocal
 from app.db.models import Call
 from sqlalchemy.sql import func
+from app.auth.deps import get_current_user
 
 router = APIRouter()
 
-@router.get("/agents")
+@router.get("/agents", dependencies=[Depends(get_current_user)])
 def agent_leaderboard():
     db: Session = SessionLocal()
 

@@ -22,3 +22,4 @@ nest_asyncio
 python-jose
 passlib[bcrypt]
 pydantic-settings
+python-multipart

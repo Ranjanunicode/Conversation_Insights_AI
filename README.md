@@ -35,21 +35,20 @@ nano .env
 
 ## ✅ Get All Calls
 ```bash
-curl http://localhost:8000/api/v1/calls
+curl -H "Authorization: Bearer <your_jwt_token>" http://localhost:8000/api/v1/calls
 ```
 
 ## ✅ Get One Call
 ```bash
-curl http://localhost:8000/api/v1/calls/<call_id>
+curl -H "Authorization: Bearer <your_jwt_token>" http://localhost:8000/api/v1/calls/<call_id>
 ```
 
 ## ✅ Get Recommendations for a Call
 ```bash
-curl http://localhost:8000/api/v1/calls/<call_id>/recommendations
+curl -H "Authorization: Bearer <your_jwt_token>" http://localhost:8000/api/v1/calls/<call_id>/recommendations
 ```
 
 ## ✅ Get Agent Leaderboard
 ```bash
-curl http://localhost:8000/api/v1/analytics/agents
-```
+curl -H "Authorization: Bearer <your_jwt_token>" http://localhost:8000/api/v1/analytics/agents
 

@@ -1,14 +1,18 @@
 # app/api/calls.py
-from fastapi import APIRouter, Query, HTTPException
+
+from fastapi import APIRouter, Query, HTTPException, Depends
 from sqlalchemy.orm import Session
+from typing import List, Optional
+import json
+
 from app.db.session import SessionLocal
 from app.db.models import Call
 from app.schemas.calls import CallOut
-from typing import List, Optional
-import json
 from app.services.insight import cosine_sim
+from app.auth.deps import get_current_user  # JWT Auth Dependency
 
 router = APIRouter()
+
 
 def get_db():
     db = SessionLocal()
@@ -17,7 +21,8 @@ def get_db():
     finally:
         db.close()
 
-@router.get("/", response_model=List[CallOut])
+
+@router.get("/", response_model=List[CallOut], dependencies=[Depends(get_current_user)])
 def list_calls(
     limit: int = Query(10, le=100),
     offset: int = 0,
@@ -25,9 +30,9 @@ def list_calls(
     from_date: Optional[str] = None,
     to_date: Optional[str] = None,
     min_sentiment: Optional[float] = None,
-    max_sentiment: Optional[float] = None
+    max_sentiment: Optional[float] = None,
+    db: Session = Depends(get_db),
 ):
-    db = next(get_db())
     query = db.query(Call)
 
     if agent_id:
@@ -43,17 +48,17 @@ def list_calls(
 
     return query.offset(offset).limit(limit).all()
 
-@router.get("/{call_id}", response_model=CallOut)
-def get_call(call_id: str):
-    db = next(get_db())
+
+@router.get("/{call_id}", response_model=CallOut, dependencies=[Depends(get_current_user)])
+def get_call(call_id: str, db: Session = Depends(get_db)):
     call = db.query(Call).filter(Call.call_id == call_id).first()
     if not call:
         raise HTTPException(status_code=404, detail="Call not found")
     return call
 
-@router.get("/{call_id}/recommendations")
-def get_similar_calls(call_id: str):
-    db = next(get_db())
+
+@router.get("/{call_id}/recommendations", dependencies=[Depends(get_current_user)])
+def get_similar_calls(call_id: str, db: Session = Depends(get_db)):
     base_call = db.query(Call).filter(Call.call_id == call_id).first()
     if not base_call:
         raise HTTPException(status_code=404, detail="Call not found")
