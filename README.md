@@ -33,6 +33,11 @@ nano .env
 
 # 🔎 Example Usage
 
+## ✅ Get token
+```bash
+curl -X POST http://localhost:8000/auth/token -d "username=admin&password=admin123" -H "Content-Type: application/x-www-form-urlencoded"
+```
+
 ## ✅ Get All Calls
 ```bash
 curl -H "Authorization: Bearer <your_jwt_token>" http://localhost:8000/api/v1/calls
