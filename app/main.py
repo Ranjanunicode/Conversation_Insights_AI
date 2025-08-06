@@ -3,6 +3,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.v1 import analytics, calls
 from app.api.v1.auth import router as auth_router
+from app.api.v1 import ws
+
 
 app = FastAPI(
     title="Call Transcript Analytics API",
@@ -22,6 +24,7 @@ app.add_middleware(
 app.include_router(auth_router, prefix="/auth", tags=["Auth"])
 app.include_router(calls.router, prefix="/api/v1/calls", tags=["Calls"])
 app.include_router(analytics.router, prefix="/api/v1/analytics", tags=["Analytics"])
+app.include_router(ws.router, tags=["WebSocket"])
 
 # Optional: WebSocket support
 # You can add a new router like: `from app.api.v1 import websocket`

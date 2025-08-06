@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Live Sentiment Analyzer</title>
+  <link rel="stylesheet" href="script.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔮 Live Sentiment Analyzer</h1>
+    <p class="subtitle">Stream messages and analyze their emotional tone in real-time.</p>
+    
+    <div class="input-group">
+      <input type="text" id="inputText" placeholder="Type a sentence..." />
+      <button onclick="sendMessage()">Analyze</button>
+    </div>
+
+    <div id="output" class="output-box"></div>
+  </div>
+
+  <script>
+    const ws = new WebSocket("ws://localhost:8000/ws/sentiment");
+    ws.onmessage = (event) => {
+      const data = JSON.parse(event.data);
+      const msg = `<div class="bubble ${data.label.toLowerCase()}">
+                    <strong>${data.label}</strong> (${data.score}): ${data.input}
+                  </div>`;
+      document.getElementById("output").innerHTML += msg;
+    };
+
+    function sendMessage() {
+      const text = document.getElementById("inputText").value;
+      if (text.trim()) {
+        ws.send(text);
+        document.getElementById("inputText").value = "";
+      }
+    }
+  </script>
+</body>
+</html>
