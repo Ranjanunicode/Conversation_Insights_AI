@@ -56,4 +56,10 @@ curl -H "Authorization: Bearer <your_jwt_token>" http://localhost:8000/api/v1/ca
 ## ✅ Get Agent Leaderboard
 ```bash
 curl -H "Authorization: Bearer <your_jwt_token>" http://localhost:8000/api/v1/analytics/agents
+```
 
+## ✅ Get Realtime Sentiment analysis using Websocket 
+### *(Instead of taking call_id I am using text to analyse sentiment in Realtime)
+```bash
+wscat -c ws://localhost:8000/ws/sentiment
+```

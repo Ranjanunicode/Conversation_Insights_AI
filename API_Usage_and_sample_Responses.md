@@ -122,7 +122,8 @@ curl -H "Authorization: Bearer <your_jwt_token>" http://localhost:8000/api/v1/an
 ]
 ```
 
-## ✅ Get Realtime Sentiment analysis using Websocket
+## ✅ Get Realtime Sentiment analysis using Websocket 
+### *(Instead of taking call_id I am using text to analyse sentiment in Realtime)
 ```bash
 wscat -c ws://localhost:8000/ws/sentiment
 ```
