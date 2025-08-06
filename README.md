@@ -29,36 +29,62 @@ nano .env
 # Add your GROQ_API_KEY to .env
 ```
 
+### 🛠️ 2. Install Dependencies & Initialize DB
+```bash
+pip install -r requirements.txt
+
+# Initialize Alembic (if not already)
+alembic init alembic
+
+# Create migration
+alembic revision --autogenerate -m "initial migration"
+
+# Apply migration
+alembic upgrade head
+
+```
+
+### 🧪 3. Run Ingestion & Enrichment Scripts
+```bash
+python scripts/ingest.py
+python scripts/enrich.py
+```
+
+### 🚀 4. Start the API Server
+```bash
+uvicorn app.main:app --reload
+```
+
 ---
 
-# 🔎 Example Usage
+# 🔎 Example Usage (with JWT Auth)
 
-## ✅ Get token
+## 🔐 Get JWT Token
 ```bash
 curl -X POST http://localhost:8000/auth/token -d "username=admin&password=admin123" -H "Content-Type: application/x-www-form-urlencoded"
 ```
 
-## ✅ Get All Calls
+## 📞 Get All Calls
 ```bash
 curl -H "Authorization: Bearer <your_jwt_token>" http://localhost:8000/api/v1/calls
 ```
 
-## ✅ Get One Call
+## 🔍 Get One Call
 ```bash
 curl -H "Authorization: Bearer <your_jwt_token>" http://localhost:8000/api/v1/calls/<call_id>
 ```
 
-## ✅ Get Recommendations for a Call
+## 💡 Get Recommendations for a Call
 ```bash
 curl -H "Authorization: Bearer <your_jwt_token>" http://localhost:8000/api/v1/calls/<call_id>/recommendations
 ```
 
-## ✅ Get Agent Leaderboard
+## 🏆 Get Agent Leaderboard
 ```bash
 curl -H "Authorization: Bearer <your_jwt_token>" http://localhost:8000/api/v1/analytics/agents
 ```
 
-## ✅ Get Realtime Sentiment analysis using Websocket 
+## 🔴 Realtime Sentiment Analysis (WebSocket) 
 ### *(Instead of taking call_id I am using text to analyse sentiment in Realtime)
 ```bash
 wscat -c ws://localhost:8000/ws/sentiment
